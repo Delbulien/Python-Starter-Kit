@@ -78,6 +78,7 @@ You will get Python from Miniforge.
 Follow this video tutorial to learn how to use Git directly in VS Code:
 🎥 [How to use Git in VS Code (YouTube)](https://www.youtube.com/watch?v=twsYxYaQikI)
 
+
 ---
 
 ## 6. 📥 Clone the repository
@@ -87,6 +88,10 @@ Follow this video tutorial to learn how to use Git directly in VS Code:
 2. Clone the current repository with **VS Code** in the folder created in the previous step.
 
 3. In VS Code, select **"Open in new window"**.
+
+Once done you should see the complete project in the new windows. Then in order to setup your environment properly, if it is the first time you are using git on your computer, you need to define your name and E-mail adress in order to be able to work properly with git. In a terminal in vs code execute the 2 following command:
+1. git config --global user.name '''"<your github name>"'''
+2. git config --global user.email '''<the e-mail adress used to create the github account>'''
 
 ---
 
