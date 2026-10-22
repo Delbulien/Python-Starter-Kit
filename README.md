@@ -61,6 +61,18 @@ You will get Python from Miniforge.
 - ✅ Choose **"Just me"** (only a local installation for the current user)
 - ✅ Check **"Register Miniforge 3 as my default Python 3.14"**
 
+
+Warning: complicated steps
+- in the explorer go to the folder where miniforge 3 is installed. The repository should looks like: C:\Users\halpi\miniforge3\Scripts (and go to the folder script)
+- in the path bar, type "cmd" --> a terminal is going to open
+- in the terminal execute "activate"
+- conda deactivate (you might have to execute "conde init" before)
+- then execute "conda -n myenv  python=3.14 -c jupyter ipykernel"
+- to check the virtual env by executing "conda activate myenv"
+- if it works "conda deactivate" and close the terminal
+
+The step are also explain on [mini forge setup](https://kirenz.github.io/codelabs/codelabs/miniforge-setup/#0)
+
 ---
 
 ## 4. 👤 Create a GitHub account
@@ -92,6 +104,11 @@ Follow this video tutorial to learn how to use Git directly in VS Code:
 Once done you should see the complete project in the new windows. Then in order to setup your environment properly, if it is the first time you are using git on your computer, you need to define your name and E-mail adress in order to be able to work properly with git. In a terminal in vs code execute the 2 following command:
 1. git config --global user.name "\<your github name\>"
 2. git config --global user.email \<the e-mail adress used to create the github account\>
+
+Then in the View-> Command Palette type python interpreter and select the miniforge 3.14 version with the myenv title
+
+
+Then in project windows open the lesson-1-basic-python-structure.ipynb. Visual studio is going to request the installation of 2 extension Python" and Jupyter that you shall accept
 
 ---
 
